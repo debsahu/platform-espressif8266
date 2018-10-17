@@ -32,7 +32,7 @@ platform = https://github.com/platformio/platform-espressif8266.git
 
 ```
 [common]
-platform = https://github.com/Jason2866/platform-espressif8266.git#feature/stage
+platform = https://github.com/Jason2866/platform-espressif8266.git
 ...
 ```
 
