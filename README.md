@@ -30,6 +30,15 @@ board = ...
 ...
 ```
 
+## Tasmota version pre 2.5.0
+
+```ini
+[env:feature/stage]
+platform = https://github.com/Jason2866/platform-espressif8266.git#feature/stage
+board = ...
+...
+```
+
 # Configuration
 
 Please navigate to [documentation](http://docs.platformio.org/page/platforms/espressif8266.html).
