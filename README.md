@@ -15,7 +15,7 @@ Espressif Systems is a privately held fabless semiconductor company. They provid
 ## Stable version
 
 ```ini
-[env:stable]
+[common]
 platform = espressif8266
 board = ...
 ...
@@ -24,7 +24,7 @@ board = ...
 ## Development version
 
 ```ini
-[env:development]
+[common]
 platform = https://github.com/platformio/platform-espressif8266.git
 board = ...
 ...
@@ -33,7 +33,7 @@ board = ...
 ## Tasmota version pre 2.5.0
 
 ```ini
-[env:feature/stage]
+[common]
 platform = https://github.com/Jason2866/platform-espressif8266.git#feature/stage
 board = ...
 ...
