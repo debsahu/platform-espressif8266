@@ -20,19 +20,19 @@ platform = espressif8266
 ...
 ```
 
-## Development version
+## Staging version (ahead of v2.5.0)
 
 ```
 [common]
-platform = https://github.com/platformio/platform-espressif8266.git
+platform = https://github.com/platformio/platform-espressif8266.git#feature/stage
 ...
 ```
 
-## Tasmota version pre 2.5.0
+## ESP8266 Arduino Core v2.5.0
 
 ```
 [common]
-platform = https://github.com/Jason2866/platform-espressif8266.git
+platform = https://github.com/debsahu/platform-espressif8266.git
 ...
 ```
 
